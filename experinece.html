@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="../assignment-04-css-emiko47/style.css" />
+
+  </head>
+  <body>
+    <div class = "full_main">
+        <navbar class="navbar">
+            <ul class ="top_page">
+                <li><a  href = "../assignment-04-css-emiko47/index.html">About</a></li>
+                <li><a  href = "../assignment-04-css-emiko47/skills.html">Skills</a></li>
+                <li><a  href = "../assignment-04-css-emiko47/education.html">Education</a></li>
+                <li class ="curr_page">Experience</li>
+                <li><a  href = "../assignment-04-css-emiko47/interests.html">Interests</a></li>
+            </ul>
+        </navbar>
+        <section class = "main_content">
+            <!-- Profile Side-->
+            <div class = "profile_side">
+                <div class="profile_sidestuff">
+                    <img src = "data:image/jpeg;base64,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" alt = "pic of Emiko">
+                    <h2 class="name_desc">Emiko Emiko</h2>
+                    <h3 class="job_desc">Software Engineer</h3>
+                    <a style ="color: purple;" href = https://ca.linkedin.com/>LinkedIn</a>
+                </div>
+                <div class="vertical_line"></div>
+            </div>
+
+            <!-- Right Side -->
+            <div class = "right_side">
+                <h1 class = "right_heading">Experience</h1>
+                
+                <table class="edu_table">
+                    <tr class = "row">
+                        <td><h3>Web Developer</h3></td>
+                        <td class = "edutbl_right">2018-present</td>
+                    </tr>
+                    <tr class = "row">
+                        <td style="color:rgb(61, 58, 58);">University of Calgary</td>
+                        <td style="color:rgb(61, 58, 58);"class = "edutbl_right">Calgary, Canada</td>
+                    </tr>
+                </table>
+                <p></p>
+                <p></p>
+                <p></p>
+                <table class = "edu_table">
+                    <tr class = "row">
+                        <td><h3>Software Developer</h3></td>
+                        <td class = "edutbl_right">2018-present</td>
+                    </tr>
+                    <tr class = "row">
+                        <td style="color:rgb(61, 58, 58);">University of Calgary</td>
+                        <td style="color:rgb(61, 58, 58);"class = "edutbl_right">Calgary, Canada</td>
+                    </tr>
+                </table>
+                <div class = "empty_space"></div>
+                <p style="color:gray;">Download my resume <a style ="color: purple;" href="https://ca.linkedin.com/">here.</a></p>
+
+
+            </div>
+        </section>
+        <footer class = "foot">
+            <p>&#169 Emiko Emiko 2023</p>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  
+
+
+
+
+
+
+
+
+    </body>
+</html>

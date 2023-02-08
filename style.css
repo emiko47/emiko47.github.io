@@ -1,0 +1,172 @@
+.full_main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-top: 4px solid purple;
+    padding-top: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: white;
+    color: white;
+    border-top: 4px solid purple;
+    
+}
+.curr_page{
+    color: purple;
+}
+section{
+    display: flex;
+}
+
+.profile_side{
+    flex: 1.5;
+    height: 40.0em;
+    color:black;
+    background-color: white;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter
+}
+
+.name_desc{
+    padding-top: 0.3em;
+    font-weight: lighter;
+    color:black;
+}
+.job_desc{
+    padding-top: 0.1em;
+    font-weight: lighter;
+    color:rgb(61, 58, 58);
+}
+.right_side{
+    flex: 2;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    
+}
+
+.right_heading{
+    padding: 50px 20px 20px 0px;
+    color: gray;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.vertical_line{
+    height: 620px;
+    border-left: 1px solid gray;
+    left: 45%;
+    position: absolute;
+    margin-left: -150px;
+    bottom: 70px; 
+
+}
+img{
+    border-radius: 50%;
+}
+
+.top_page{
+    display: flex;
+    padding: 30px;
+    color: purple;
+    justify-content: center;
+    font-size: 20px;
+    gap: 7em;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    list-style-type: none;
+}
+
+a:link {
+    background-color: white;
+    text-decoration: none;
+    color: gray;
+  }
+  
+  a:visited {
+    background-color: white;
+    text-decoration: none;
+    color: gray;
+  }
+  
+  a:hover {
+    background-color: none;
+    text-decoration: none;
+    color: purple;
+  }
+  
+  a:active {
+    background-color: none;
+    text-decoration: none;
+    color: purple;
+  }
+
+  .foot{
+    text-align: center;
+    color: gray;
+    
+  }
+  .bar{
+    width: 500px;
+    height: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .bar_labels{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color:rgb(61, 58, 58);
+  }
+  .edu_table{
+    color:rgb(61, 58, 58);
+    width: 500px;
+  }
+.edutbl_right{
+    text-align: right;
+}
+.row{
+    padding-top: 0.2em;
+}
+.empty_space{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+}
+.intrst_block{
+    padding-top: 30px;
+}
+.intrst_list{
+    list-style-type: '-';
+    color:rgb(61, 58, 58);
+}
+.intrst_items{
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1250px){
+    .vertical_line{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 850px){
+    .top_page{
+        gap: 3em;
+    }
+    section{
+        flex-direction:column;
+    }
+    .right_side{
+        padding-top: 0.5em;
+        align-items: center;
+    }
+    .vertical_line{
+        display: none;
+    }
+    .profile_side{
+        padding-bottom: 15px;
+    }
+}
